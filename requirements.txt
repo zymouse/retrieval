@@ -1,0 +1,4 @@
+jieba
+matplotlib
+numpy
+scipy
