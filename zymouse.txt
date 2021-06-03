@@ -1,0 +1,640 @@
+neousys@neousys-Nuvo-6108GC:~$ history 
+    1  sudo apt update
+    2  sudo apt install make gcc vim net-tools
+    3  sudo vim /etc/modprobe.d/blacklist.conf 
+    4  reboot
+    5  sudo make
+    6  sudo bash start.sh 
+    7  cd bootexec/
+    8  sudo bash add_2_boot.sh 
+    9  ifconfig
+   10  sudo ./NVIDIA-Linux-x86_64-460.32.03.run -no-x-check
+   11  nvidia-smi
+   12  sudo bash log_v2.sh 
+   13  CAT SN
+   14  cat sn
+   15  cat Nuvo-6108GC_l0403486
+   16  cat Nuvo-6108GC_L0403486
+   17  shutdown now
+   18  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+   19  sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+   20  sudo apt update
+   21  sudo gedit /etc/apt/sources.list
+   22  sudo cp /etc/apt/sources.list
+   23  sudo cp /etc/apt/sources.list 123.txt
+   24  sudo gedit /etc/apt/sources.list
+   25  reboot
+   26  sudo gedit /etc/apt/sources.list
+   27  sudo apt update
+   28  nano ~/.bashrc
+   29  nano /etc/apt/sources.list
+   30  bash
+   31  sudo apt update 
+   32  sudo gedit  /etc/apt/sources.list
+   33  sudo apt update 
+   34  sudo apt install ros-noetic-desktop
+   35  sudo apt install ros-melodic-desktop
+   36  echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+   37  source ~/.bashrc
+   38  sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+   39  sudo apt install python-rosdep
+   40  sudo rosdep init
+   41  rosdep update
+   42  pip3 install -U setuptools
+   43  mkidir -p autoware-1.14/src
+   44  mkdir -p autoware-1.14/src
+   45  cd autoware-1.14/
+   46  $ wget -O autoware.ai.repos "https://raw.githubusercontent.com/Autoware-AI/autoware.ai/1.12.0/autoware.ai.repos"
+   47  wget -O autoware.ai.repos "https://raw.githubusercontent.com/Autoware-AI/autoware.ai/1.14.0/autoware.ai.repos"
+   48  rosdep update
+   49  rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
+   50  cd ..
+   51  cd Downloads/
+   52  sudo bash cuda_10.0.130_410.48_linux.run 
+   53  cd ..
+   54  sudo apt-get install unzip
+   55  sudo apt-get install rar
+   56  cd Downloads/
+   57  unzip catkin_ws.zip 
+   58  AUTOWARE_COMPILE_WITH_CUDA=1 colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
+   59  cd ..
+   60  cd && wget http://bitbucket.org/eigen/eigen/get/3.3.7.tar.gz #Download Eigen
+   61  mkdir eigen && tar --strip-components=1 -xzvf 3.3.7.tar.gz -C eigen #Decompress
+   62  cd && rm -rf 3.3.7.tar.gz && rm -rf eigen #Remove downloaded and temporary files
+   63  AUTOWARE_COMPILE_WITH_CUDA=1 colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
+   64  cd catkin_ws/
+   65  catkin_make
+   66  cd ..
+   67  ls
+   68  cd Documents/
+   69  ls
+   70  cd ../autoware-1.14/
+   71  ls
+   72  sudo gedit ~/.bashrb
+   73  sudo gedit ~/.bashrc
+   74  bash
+   75  nvcc -V
+   76  nvidia-smi 
+   77  cd src
+   78  AUTOWARE_COMPILE_WITH_CUDA=1 colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
+   79  sudo bash cuda_10.0.130_410.48_linux.run 
+   80  cd autoware-1.14/
+   81  cd src/
+   82  AUTOWARE_COMPILE_WITH_CUDA=1 colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
+   83  cd eigen
+   84  make install
+   85  cd && wget http://bitbucket.org/eigen/eigen/get/3.3.7.tar.gz #Download Eigen
+   86  mkdir eigen && tar --strip-components=1 -xzvf 3.3.7.tar.gz -C eigen #Decompress
+   87  cd eigen && mkdir build && cd build && cmake .. && make && make install #Build and install
+   88  make install
+   89  cd ..
+   90  make install
+   91  sudo make
+   92  rm -rf eigen
+   93  cd ..
+   94  rm -rf 3.3.7.tar.gz
+   95  rm -rf eigen
+   96  cd build 
+   97  ls
+   98  cd ..
+   99  cd eigen
+  100  cd Downloads/
+  101  sudo apt-get install gz
+  102  cd ..
+  103  sudo apt-get install gz
+  104  cd Downloads/
+  105  sudo bash 3.3.7.tar.gz 
+  106  cd eigen-git-mirror-3.3.7/
+  107  ls
+  108  mkdir build && cd build && cmake .. && make && make install
+  109  sudo make install 
+  110  ls
+  111  cd catkin_ws/src/
+  112  cd ..
+  113  catkin_make
+  114  roscore
+  115  cd catkin_ws/
+  116  catkin make
+  117  catkin_make
+  118  roscore
+  119  cd catkin_ws/
+  120  catkin_make
+  121  ./install_spinnaker.sh 
+  122  ping 192.168.1.61
+  123  bash
+  124  roslaunch runtime_manager runtime_manager.launch 
+  125  nano ~/.bashrc
+  126  bash
+  127  rostopic  lis
+  128  rostopic  list 
+  129  nano ~/.bashrc
+  130  bash
+  131  cd autoware-1.14/
+  132  ls
+  133  AUTOWARE_COMPILE_WITH_CUDA=1 colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
+  134  cd ..
+  135  ls
+  136  cd catkin_ws/
+  137  catkin_make
+  138  ls
+  139  cd ..
+  140  ls
+  141  cd catkin_ws/
+  142  catkin_make
+  143  sudo apt install ros-melodic-autoware_msgs 
+  144  sudo rm /var/lib/dpkg/lock-frontend 
+  145  sudo apt install ros-melodic-autoware_msgs 
+  146  sudo rm /var/lib/dpkg/lock  
+  147  sudo apt install ros-melodic-autoware_msgs 
+  148  sudo apt install ros-melodic-autoware-msgs 
+  149  cd ..
+  150  ls
+  151  cd autoware-1.14/
+  152  AUTOWARE_COMPILE_WITH_CUDA=1 colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
+  153  cd ..
+  154  cd catkin_ws/
+  155  lls
+  156  ls
+  157  catkin_make
+  158  sudo apt install libunwind-dev ros-melodic--cv-bridge ros-melodic--image-transport
+  159  sudo apt install libunwind-dev 
+  160  catkin_make
+  161  ls
+  162  bash
+  163  nano ~/.bashrc
+  164  bash
+  165  source ~/autoware-1.14/install/setup.bash 
+  166  roslaunch runtime_manager runtime_manager.launch 
+  167  rosrun spinnaker_sdk_camera_driver 
+  168  rosrun spinnaker_sdk_camera_driver acquisition_node
+  169  ls
+  170  sudo apt install ros-melodic-velodyne-driver
+  171  necc -v
+  172  nicc -v
+  173  nvcc -v
+  174  nvcc -V
+  175  sudo apt install ros-melodic-velodyne-driver
+  176  sudo dpkg -i nomachine_6.11.2_1_amd64.deb 
+  177  roslaunch pix_driver pix_driver_write.launch 
+  178  roscore
+  179  ifconfig
+  180  sudo apt install ssh
+  181  cd autoware-1.14/
+  182  source install/setup.bash 
+  183  roslaunch runtime_manager runtime_manager.launch 
+  184  roscore 
+  185  cd catkin_ws/
+  186  cd src
+  187  roslaunch pix_driver pix_driver_write.launch 
+  188  unzip B202
+  189  cd catkin_ws/src/pix_driver/
+  190  l
+  191  more  control_cmd_example.txt 
+  192  cd autoware-1.14/
+  193  source install/setup.bash 
+  194  roslaunch runtime_manager runtime_manager.launch 
+  195  cd catkin_ws/
+  196  source install/setup.bash 
+  197  roslaunch runtime_manager runtime_manager.launch 
+  198  ls
+  199  cd autoware-1.14/
+  200  ls
+  201  colon --packages-select autoware-spinaker-drviers
+  202  colcon --packages-select autoware-spinaker-drviers
+  203  colcon --packages-select autoware-pointgrey-drivers
+  204  colcon build --packages-select autoware-pointgrey-drivers
+  205  colcon build --packages-select autoware_pointgrey_drivers
+  206  ifconfig 
+  207  bash
+  208  rostopic
+  209  rostopic list
+  210  ping 192,168.1.61
+  211  ping 192,168.1.60
+  212  ping 192.168.1.61
+  213  roslaunch runtime_manager runtime_manager.roslaunch
+  214  cd autoware-1.14/
+  215  source install/setup.bash 
+  216  roslaunch runtime_manager runtime_manager.launch 
+  217  rostopic echo /image_raw
+  218  rostopic echo/image_raw
+  219  rostopic echo /image_raw
+  220  ping 192.168.1.60
+  221  rostpic list
+  222  rostopic list
+  223  roscore
+  224  rostopic list
+  225  cd autoware-1.14/
+  226  source install/setup.bash 
+  227  roslaunch runtime_manager runtime_manager.launch 
+  228  source ~/autoware-1.14/install/setup.bash 
+  229  roslaunch runtime_manager runtime_manager.launch 
+  230  cd catkin_ws/
+  231  cd ..
+  232  roslaunch pix_driver pix_driver_write.launch 
+  233  roslaunch pix_driver pix_driver_read.launch 
+  234  pwd
+  235  l
+  236  cd
+  237  vim ~/.bashrc 
+  238  vim ~/.bashrc
+  239  l
+  240  rosl
+  241  cd
+  242  l
+  243  cd autoware-1.14/
+  244  k
+  245  l
+  246  roslaunch runtime_manager runtime_manager.launch 
+  247  ifconfig
+  248  l
+  249  ifconfig
+  250  ping 192.168.1.102
+  251  roslaunch autoware_pointgrey_drivers spinnaker.launch 
+  252  l
+  253  cd autoware-1.14/
+  254  l
+  255  cd
+  256  l
+  257  cd catkin_ws/
+  258  l
+  259  cd src/
+  260  l
+  261  cd
+  262  l
+  263  rostopic echo /image_raw
+  264  cd autoware-1.14/
+  265  ls
+  266  cd src/
+  267  ls
+  268  cd drivers/
+  269  ls
+  270  cd au
+  271  cd ..
+  272  ls
+  273  cd drivers/
+  274  ls
+  275  cd ~
+  276  ls
+  277  cd catkin_ws/
+  278  cd src/
+  279  ls
+  280  cd spinnaker_sdk_camera_driver-1.1.0/
+  281  ls
+  282  cd launch/
+  283  ls
+  284  cd  /
+  285  clear
+  286  find -name spinnaker.launch 
+  287  cd home/
+  288  cd neousys/
+  289  cd autoware-1.14/
+  290  cd install/
+  291  ls
+  292  cd /home/neousys/autoware-1.14/src/
+  293  ls
+  294  cd drivers/
+  295  ls
+  296  cd awf_drivers/
+  297  ls
+  298  cd pointgrey/
+  299  ls
+  300  cd scripts/
+  301  ls
+  302  rostopic list 
+  303  rostopic /image_raw
+  304  rostopic echo /image_raw
+  305  gedit .bashrc 
+  306  roslaunch runtime_manager runtime_manager.launch 
+  307  history 
+  308  cd autoware-1.14/
+  309  ls
+  310  cd install/
+  311  ls
+  312  ll |grep set
+  313  mv Desktop/src.zip autoware-1.14/
+  314  l
+  315  cd a
+  316  cd autoware-1.14/
+  317  l
+  318  rm -rf src
+  319  rm -rf build/
+  320  rm -rf install/
+  321  l
+  322  unzip src.zip 
+  323  AUTOWARE_COMPILE_WITH_CUDA=1 colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
+  324  clear
+  325  roslaunch autoware_pointgrey_drivers spinnaker.launch 
+  326  ping 192.168.1.102
+  327  ifconfig 
+  328  vim ~/.bashr
+  329  vim ~/.bashrc 
+  330  cd autoware-1.14/c
+  331  cd autoware-1.14/
+  332  ls
+  333  roslaunch runtime_manager runtime_manager.launch 
+  334  roslaunch autoware_pointgrey_drivers spinnaker.launch 
+  335  history 
+  336  rostopic list 
+  337  roscore
+  338  rostopic list 
+  339  roscore 
+  340  roslaunch runtime_manager runtime_manager.launch 
+  341  roslaunch autoware_pointgrey_drivers spinnaker.launch 
+  342  rostopic echo /image_raw
+  343  cd Downloads/
+  344  ls
+  345  mkdir  zymouse
+  346  ls
+  347  cd zymouse/
+  348  git clone https://github.com/Autoware-AI/core_perception.git
+  349  ls
+  350  cd core_perception/
+  351  cd catkin_ws/
+  352  ls
+  353  cd src/
+  354  cls
+  355  ls
+  356  cd pix_autoware/
+  357  ls
+  358  cd ..
+  359  ls
+  360  cd pix_driver/
+  361  ls
+  362  cd Downloads/
+  363  cd zymouse/
+  364  mkdir -p catkin_ws/src
+  365  cd catkin_ws/src/
+  366  cd ..
+  367  ls
+  368  mv -r core_perception catkin_ws/src/
+  369  ls
+  370  pip
+  371  rostopic echo /os_cloud_node/points 
+  372  l
+  373  unzip ouster_example-20201209.zip 
+  374  l
+  375  cd catkin_ws/
+  376  l
+  377  cd src/
+  378  l
+  379  cd
+  380  l
+  381  cd catkin_ws/
+  382  l
+  383  ln -s ~/ouster_example-20201209 ./src/
+  384  l
+  385  cd src/
+  386  l
+  387  cd ../..
+  388  l
+  389  cd catkin_ws/
+  390  catkin_make
+  391  sudo apt install build-essential cmake libglfw3-dev libglew-dev libeigen3-dev      libjsoncpp-dev libtclap-dev libtins-dev libpcap-dev
+  392  catkin_make
+  393  source devel/setup.bash 
+  394  cd
+  395  roslaunch ouster_ros ouster.launch lidar_port:=192.168.1.117 udp_dest:=192.168.1.102
+  396  roslaunch ouster_ros ouster.launch udp_dest:=192.168.1.102 sensor_hostname:=192.168.1.102
+  397  l
+  398  roslaunch ouster_ros ouster.launch udp_dest:=192.168.1.102 sensor_hostname:=192.168.1.117
+  399  l
+  400  sudo mkdir -p /etc/systemd/system/phc2sys.service.d
+  401  cd /etc/systemd/system/phc2sys.service.d/
+  402  l
+  403  vim override.conf
+  404  cd ..
+  405  l
+  406  cd ptp4l.service.d/
+  407  l
+  408  vim override.conf 
+  409  cd ..
+  410  l
+  411  cd phc2sys.service.d/
+  412  ;
+  413  l
+  414  vim overrive.conf
+  415  sudo vim overrive.conf
+  416  sudo systemctl daemon-reload 
+  417  sudo systemctl restart phc2sys
+  418  sudo systemctl status phc2sys
+  419  ip addr
+  420  sudo ethtool -T enp2s0
+  421  cd
+  422  cd /etc/linuxptp/
+  423  l
+  424  vim timemaster.conf 
+  425  vim ptp4l.conf 
+  426  sudo vim ptp4l.conf 
+  427  cd /etc/systemd/system/ptp4l.service.d/
+  428  l
+  429  sudo vim override.conf
+  430  sudo systemctl daemon-reload 
+  431  sudo systemctl restart ptp4l.service 
+  432  sudo systemctl restart ptp4l
+  433  sudo systemctl status ptp4l.service 
+  434  sudo systemctl status ptp4l
+  435  sudo systemctl daemon-reexec 
+  436  sudo systemctl restart ptp4l
+  437  sudo systemctl status ptp4l
+  438  sudo systemctl daemon-reload 
+  439  sudo systemctl restart ptp4l
+  440  sudo systemctl status ptp4l
+  441  vim /etc/linuxptp/ptp4l.conf 
+  442  reboot
+  443  sudoreboot
+  444  sudo reboot
+  445  ifconfig
+  446  ping 192.168.1.117
+  447  sudo apt install linuxptp ethtool
+  448  ifconfig
+  449  sudo ethtool -T enp2s0
+  450  cd /etc/linuxptp/
+  451  vim ptp4l.conf 
+  452  sudo vim ptp4l.conf 
+  453  cd /etc/systemd/system/ptp4l.service.d/
+  454  l
+  455  sudo vim override.conf
+  456  sudo systemctl daemon-reload 
+  457  sudo systemctl restart ptp4l
+  458  sudo systemctl status ptp4l
+  459  l
+  460  vim override.conf 
+  461  sudo vim /etc/linuxptp/ptp4l.conf 
+  462  sudo systemctl daemon-reload 
+  463  sudo systemctl restart ptp4l
+  464  sudo systemctl status ptp4l
+  465  l
+  466  cd
+  467  l
+  468  cd Downloads/
+  469  l
+  470  sudo systemctl status ptp4l.service 
+  471  sudo systemctl daemon-reload 
+  472  sudo systemctl restart ptp4l
+  473  sudo systemctl status ptp4l
+  474  sudo ethtool -T enp2s0
+  475  ifconfig
+  476  sudo ethtool -T enp0s31f6
+  477  sudo vim /etc/linuxptp/ptp4l.conf 
+  478  sudo systemctl daemon-reload 
+  479  sudo systemctl restart ptp4l
+  480  sudo systemctl status ptp4l
+  481  sudo vim /etc/linuxptp/ptp4l.conf 
+  482  sudo systemctl daemon-reload 
+  483  sudo systemctl restart ptp4l
+  484  sudo systemctl status ptp4l
+  485  sudo vim /etc/linuxptp/ptp4l.conf 
+  486  sudo systemctl daemon-reload 
+  487  sudo systemctl restart ptp4l
+  488  sudo systemctl status ptp4l
+  489  sudo vim /etc/linuxptp/ptp4l.conf 
+  490  roslaunch ouster_ros ouster.launch sensor_hostname:=192.168.1.117 udp_dest:=192.168.1.102
+  491  rosed ouster_ros ouster.launch
+  492  roslaunch ouster_ros ouster.launch
+  493  rosed ouster_ros os_cloud_node.cpp 
+  494  cd catkin_ws/
+  495  catkin_make
+  496  roslaunch ouster_ros ouster.launch
+  497  ifconfig
+  498  sudo systemctl daemon-reload 
+  499  sudo systemctl restart ptp4l
+  500  sudo systemctl status ptp4l
+  501  sudo systemctl daemon-reload 
+  502  sudo systemctl restart ptp4l
+  503  sudo systemctl status ptp4l
+  504  sudo systemctl daemon-reload 
+  505  sudo systemctl restart phc2sys
+  506  sudo systemctl status phc2sys
+  507  nv 192.168.1.117 7501
+  508  nc 192.168.1.117 7501
+  509  http http://192.168.1.117/api/v1/system/time/ptp
+  510  sudo apt install httpie
+  511  http http://192.168.1.117/api/v1/system/time/ptp
+  512  rostopic echo /os_cloud_node/points/header
+  513  rostopic echo /points_raw 
+  514  rostopic echo /points_raw/header
+  515  rostopic echo /imu_raw
+  516  l
+  517  cd Downloads/
+  518  l
+  519  sudo ./NVIDIA-Linux-x86_64-460.32.03.run 
+  520  reboot 
+  521  sudo reboot 
+  522  rostopic echo /points_raw/header
+  523  l
+  524  roscd ouster_ros/
+  525  l
+  526  cp ouster.launch ouster_1.launch
+  527  l
+  528  ping 192.168.1.201
+  529  roscd ouster_ros/
+  530  l
+  531  rosed runtime_manager sensing.yaml 
+  532  roscd runtime_manager/
+  533  l
+  534  cd launch
+  535  l
+  536  cd ..
+  537  l
+  538  cd scripts/
+  539  l
+  540  cd ..
+  541  l
+  542  cd launch_files/
+  543  l
+  544  vim velodyne_vlp16
+  545  vim velodyne_vlp16.launch 
+  546  cp velodyne_vlp16.launch velodyne_vlp16_1.launch
+  547  roslaunch velodyne_vlp16.launch 
+  548  l
+  549  vim velodyne_vlp16_1.launch 
+  550  roslaunch velodyne_vlp16_1.launch 
+  551  rostopic echo /points_raw/header
+  552  roslaunch ouster_ros ouster.launch 
+  553  l
+  554  rostopic list
+  555  rostopic echo /ns1/points_raw
+  556  rostopic echo /ns1/points_raw/header
+  557  roscd runtime_manager/launch_files/
+  558  l
+  559  vim velodyne_vlp16_1.launch 
+  560  roslaunch velodyne_vlp16_1.launch 
+  561  reboot
+  562  sudo reboot
+  563  roslaunch ouster_ros ouster.launch 
+  564  l
+  565  roslaunch runtime_manager runtime_manager.launch 
+  566  rostopic echo /ns1/velodyne_points/header
+  567  sudo apt install ntpdate
+  568  ntpdate cn.pool.ntp.org
+  569  sudo ntpdate cn.pool.ntp.org
+  570  hwclock --systohc
+  571  sudo hwclock --systohc
+  572  date
+  573  rosrun rqt_tf_tree rqt_tf_tree 
+  574  rostopic list
+  575  rostopic echo /ns1/velodyne_packets/header
+  576  l
+  577  rostopic list
+  578  rostopic echo /ns1/velodyne_points/ehader
+  579  rostopic echo /ns1/velodyne_poi
+  580  rostopic echo /ns1/velodyne_points/header
+  581  l
+  582  rostopic list
+  583  l
+  584  rostopic list
+  585  rostopic echo /points_raw/header
+  586  rostopic list
+  587  roslaunch runtime_manager velodyne_vlp16_1.launch 
+  588  rosed runtime_manager velodyne_vlp16_1.launch 
+  589  l
+  590  roscd velodyne_pointcloud/
+  591  l
+  592  cd launch/
+  593  l
+  594  vim VLP16_points_multi.launch
+  595  roscd runtime_manager/launch_files/
+  596  l
+  597  vim vlp_multi.launch
+  598  roslaunch vlp_multi.launch 
+  599  roscd ouster_ros/
+  600  l
+  601  vim ouster_1.launch 
+  602  l
+  603  cd sr
+  604  l
+  605  cd sr
+  606  l
+  607  cd src/
+  608  l
+  609  vim os_cloud_node.cpp 
+  610  l
+  611  cd ..
+  612  l
+  613  vim ouster_1.launch 
+  614  roslaunch ouster_1.launch 
+  615  vim ouster_1.launch 
+  616  roslaunch ouster_1.launch 
+  617  vim ouster_1.launch 
+  618  l
+  619  cd
+  620  cd catkin_ws/
+  621  l
+  622  catkin_make
+  623  roslaunch ouster_ros ouster.launch 
+  624  history 
+  625  sudo reboot 
+  626  roslaunch runtime_manager vlp_multi.launch 
+  627  rostopic echo /os_cloud_node/points/header
+  628  rostopic echo /points_raw/header
+  629  rosrun tf static_transform_publisher  0.389616 0.0644002 -0.634111  3.04355 -3.13241   3.1312 /velodyne_first /os_sensor 10
+  630  roslaunch ouster_ros ouster.launch 
+  631  rostopic echo /ns1/velodyne_points/header
+  632  rostopic echo /ns2/points_raw 
+  633  roslaunch ouster_ros ouster.launch 
+  634  l
+  635  cd catkin_ws/
+  636  rosed ouster_ros os_cloud_node.cpp 
+  637  catkin_make
+  638  roslaunch ouster_ros ouster.launch 
+  639  history 
